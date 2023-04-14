@@ -1,0 +1,11 @@
+/.idea
+/out
+/Test
+/**/*.iml
+
+# 检查ingore规则是否有效，如果有输出则表明这个文件或者路径被忽略掉了
+# git check-ignore -v {文件或者目录路径}
+# .gitignore只能忽略哪些没有被追踪的文件，所以先纳入版本管理后写.gitignore是无效的，解决如下：
+# git rm -r --cached .
+# git add .
+# git status
